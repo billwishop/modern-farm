@@ -3,7 +3,7 @@
 let allPlants = []
 
 export const addPlant = (seedObj) => {
-    allPlants.touch(seedObj)
+    allPlants.push(seedObj)
 }
 
 export const usePlants = () => {
